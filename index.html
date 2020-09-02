@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+
+    <div id="modal">
+      <div id="modalContent">
+        <h2 id="modalTitle">Pick a chess piece to replace the pawn.</h2>
+        <div class="modal-option" name="queen">
+          Queen
+        </div>
+        <div class="modal-option" name="rook">
+          Rook
+        </div>
+        <div class="modal-option" name="bishop">
+          Bishop
+        </div>
+        <div class="modal-option" name="knight">
+          Knight
+        </div>
+        <div id="modalCountdown">
+        </div>
+      </div>
+    </div>
+
+    <script src="src/js/constants.js"></script>
+    <script src="src/js/dialog.js"></script>
+    <script src="src/js/renderer.js"></script>
+    <script src="src/js/input.js"></script>
+    <script src="src/js/chessPieces.js"></script>
+    <script src="src/js/board.js"></script>
+    <script src="src/js/minMax.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
